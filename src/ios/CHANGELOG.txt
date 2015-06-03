@@ -1,0 +1,3 @@
+
+- Removed "duplicate symbol" issues with other Admob Mediation libraries.
+- Added support for architectures: ARM7S and i386.
