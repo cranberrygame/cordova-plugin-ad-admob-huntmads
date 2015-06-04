@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
     xmlns:android="http://schemas.android.com/apk/res/android"
-    id="com.cranberrygame.cordova.plugin.ad.admob.huntads"
-    version="1.0.0">
+    id="com.cranberrygame.cordova.plugin.ad.admob.huntmads"
+    version="1.0.11">
 	
-    <name>Cordova Admob-HuntAds Mediation Plugin</name>
-    <description>Cordova Admob-HuntAds Mediation Plugin</description>
+    <name>Cordova Admob-HuntMAds Mediation Plugin</name>
+    <description>Cordova Admob-HuntMAds Mediation Plugin</description>
     <author>Sang Ki Kwon (Cranberrygame)</author>		
     <license>MIT</license>
-    <keywords>cordova,plugin,ad,admob,monetisation,huntads,mediation</keywords>
+    <keywords>cordova,plugin,ad,admob,monetisation,huntmads,mediation</keywords>
     <repo>https://github.com/cranberrygame/cordova-plugin-ad-admob</repo>
     <issue>https://github.com/cranberrygame/cordova-plugin-ad-admob/issues</issue> 	
 	<engines>
@@ -24,7 +24,7 @@
      <!-- ios -->
      <platform name="ios">    
 		<source-file src="src/ios/libAdapterSDKHuntMobileAds.a" framework="true"/>
-
+		<framework src="MediaPlayer.framework" />
     </platform>
 	
 	<!-- dependency -->
